@@ -15,29 +15,32 @@ body {
     justify-content: center;
 }
 
-.container{
+.container {
     width: 420px;
     background: transparent;
-    border: 2px; solid rgba(255, 255, 255, .2);;
+    /* FIX: Corrected border syntax and ensured uniformity with backdrop-filter */
+    border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
     border-radius: 10px;
     padding: 30px 40px;
 }
 
-h1{
+h1 {
     font-size: 36px;
     text-align: center;
     color: #fff;
+    margin-bottom: 25px; /* Added margin for separation */
 }
 
-.input-container{
+.input-container {
     position: relative;
     width: 100%;
     height: 50px;
-    margin: 30px;
+    /* Adjusted margin for better spacing between fields */
+    margin: 25px 0; 
 }
 
-.input-container input{
+.input-container input {
     width: 100%;
     height: 100%;
     background: transparent;
@@ -56,16 +59,19 @@ h1{
 
 .input-container img {
     position: absolute;
-    right: 24px;
-    top: 20%;
-    margin-top: 5px;
+    right: 20px; /* Adjusted icon position slightly */
+    top: 50%;
+    transform: translateY(-50%); /* Centers icon vertically */
 }
 
+/* Specific styles for the forgot password link */
 .input-container a {
-    font-size: 16px;
-    margin-top: 5px;
+    font-size: 14.5px; /* Smaller font size for better fit */
+    margin-top: 15px; /* Added a small top margin */
     color: #fff;
     text-decoration: none;
+    display: block; /* Makes it take up a new line */
+    text-align: right; /* Aligns to the right */
 }
 
 .input-container a:hover {
@@ -84,6 +90,7 @@ h1{
     cursor: pointer;
     outline: none;
     font-size: 16px;
+    transition: background-color 0.3s; /* Smooth transition */
 }
 
 .submit-button:hover {
@@ -98,7 +105,7 @@ h1{
 
 .register-link {
     text-align: center;
-    margin: 20px 0;
+    margin: 20px 0 0; /* Adjusted margin-bottom to 0 */
 }
 
 .register-link p a {
