@@ -24,6 +24,16 @@ O projeto é composto por quatro módulos interconectados:
 
 ***Confirmação (emJKZBN):*** Tela de sucesso pós-cadastro, com botão e link para retornar ao Login.
 
+| Links | (CodePens) |
+| :-- | -- |
+| Módulo | Link|
+| Login | https://codepen.io/sandyjsilva/pen/pvgKyEX |
+| Cadastro | https://codepen.io/sandyjsilva/pen/azdKNdN |
+| Recuperação | https://codepen.io/sandyjsilva/pen/bNEKppQ |
+| Confirmação | https://codepen.io/sandyjsilva/pen/emJKZBN |
+
+
+
 ## Nota sobre o JavaScript no CodePen
 Devido às restrições de segurança de iframe do CodePen, o redirecionamento pós-cadastro usa window.open(URL, '_blank') para abrir a tela de confirmação em uma nova aba. Em um ambiente de produção (site 
 real), seria usado window.location.href = URL; para navegar na mesma janela. **Mas ainda não foi encontrado uma solução para essa etava, talvez se houver uma mudança no ambiente de criação**
