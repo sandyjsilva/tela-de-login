@@ -1,1 +1,19 @@
-
+<div class="container">
+    <div class="confirmation-box">
+        <p class="success-icon">✅</p>
+        
+        <h1>Cadastro Concluído!</h1>
+        
+        <p class="success-message">
+            Sua conta foi criada com sucesso! Você já pode acessar a plataforma.
+        </p>
+        
+        <button class="submit-button" onclick="window.location.href='https://codepen.io/sandyjsilva/pen/pvgKyEX'">
+            Ir para o Login
+        </button>
+        
+        <div class="nav-link">
+            <a href="https://codepen.io/sandyjsilva/pen/pvgKyEX">Ou clique aqui para continuar</a>
+        </div>
+    </div>
+</div>
