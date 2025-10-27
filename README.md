@@ -5,9 +5,11 @@ Senha e Confirmação de Cadastro). O design adota o estilo Glassmorphism, com u
 
 ## Resultado Esperado da interface do app:
 
-<img width="300" height="150" alt="image" src="https://github.com/user-attachments/assets/21976f06-7a15-4b9d-923a-cc41334aaea0" />
-<img width="300" height="150" alt="image" src="https://github.com/user-attachments/assets/1c7add9c-3d0f-45a1-b111-013e8383fbfd" />
-<img width="300" height="150" alt="image" src="https://github.com/user-attachments/assets/da34ed5f-ae64-4c36-9a5b-89ece5077f12" />
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/21976f06-7a15-4b9d-923a-cc41334aaea0" />
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/1c7add9c-3d0f-45a1-b111-013e8383fbfd" />
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/da34ed5f-ae64-4c36-9a5b-89ece5077f12" />
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/ba47df63-4a0e-4ec7-bd3a-0a23f6d2bc42" />
+
 
 
 
